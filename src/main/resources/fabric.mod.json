@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "doublehandpickaxe",
+  "version": "${version}",
+  "name": "DoubleHandPickaxe",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/A1hen/DoubleHandPickaxe"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+      "doublehandPickaxe.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
